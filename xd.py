@@ -1,9 +1,20 @@
-Frase = "Hola mundo como estas"
+print("Pizzeria don pancho")
 
-frase_cambio = Frase.split()
+dinero = int(input("Introduzca el dinero que tiene disponible para comprar: "))
 
-for palabra in frase_cambio:
-    print(palabra)
+ingredientes_extra = ["+tomate","+salchicha","+salame","+piña"]
 
-#   0        1
-#["Hola", "mundo"]
+pizza = input("Ingrese la pizza que quiera elegir (napolitana,hawaiana o pepperoni): ")
+
+napolitana = 5000
+hawaiana = 7500
+pepperoni = 6500
+
+if pizza == "napolitana":
+    napolitana
+elif pizza == "hawaiana":
+    pizza = hawaiana
+elif pizza == "pepperoni":
+    pepperoni
+
+print(f"El costo hasta ahora es de {pizza}")
