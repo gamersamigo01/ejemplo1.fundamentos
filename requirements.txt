@@ -1,0 +1,3 @@
+# requirements.txt
+# Este proyecto no requiere dependencias externas adicionales
+# Solo Python estándar
