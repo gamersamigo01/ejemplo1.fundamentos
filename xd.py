@@ -50,6 +50,5 @@ if Mas == "s":
             que_ingrediente = input("Cuales ingredientes usted quiere agregar (tomate, salchicha, salame, piña o digite salir): ")
 
 print(f"Su pizza estar lista en unos minutos, esta tuvo el valor de {total_dinero}")
-            
 
         
