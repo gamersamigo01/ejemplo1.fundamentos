@@ -5,4 +5,4 @@ if document.endswith(".jpg") or document.endswith(".png"):
 elif document.endswith(".pdf") or document.endswith(".doc"):
     print("Your archive is a document")
 else:
-    print("unknown format")
+    print("Unkown format")
