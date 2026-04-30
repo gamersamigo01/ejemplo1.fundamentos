@@ -6,4 +6,4 @@ elif "tonto" in comentario.lower() or "feo" in comentario.lower(): #Aca ocupas l
     limpio = comentario.replace("tonto", "*****").replace("feo","***") #Se ocupan 2 replaces diferentes para que funcione, pero pueden ser uno seguido de otro
     print(f"Su comentario es {limpio}")
 else:
-    print("Error de syntaxis")
+    print(f"Comentario publicado: {comentario}")
