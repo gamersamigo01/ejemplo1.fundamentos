@@ -3,10 +3,10 @@ edad = int(input("Ingrese su edad:"))
 if edad < 12:
     print(f"Edad: {edad}")
     print("Niño: pasa gratis")
-elif edad >=12 and edad <=17:
+elif edad <=17:
     print(f"Edad: {edad}")
     print("Adolesente: media tarifa")
-elif edad >= 18 and edad <= 64:
+elif edad <= 64:
     print(f"Edad: {edad}")
     print("Adulto: tarifa completa")
 else: 
