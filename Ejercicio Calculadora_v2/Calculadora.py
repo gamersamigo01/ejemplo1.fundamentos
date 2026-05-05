@@ -1,8 +1,22 @@
 print("¡Bienvenido a la calculadora de python!")
 while True:
+    print("Opcion (1-8) textos")
+    print("1. Texto cambio a mayusculas")
+    print("2. Texto cambio a minusculas")
+    print("3. Texto se revisa si es solo digitos")
+    print("4. Texto se revisa si es solo caracteres")
+    print("5. Texto revisa en que poscision esta la letra a")
+    print("6. Texto Se separa como lista")
+    print("7. Texto cuenta su largo")
+    print("8. Texto transforma todas las primeras letras despues de un espacio en mayusculas")
+    print("opcion (9-11) numeros")
+    print("9. Menu de calculos matematicos")
+    print("10. Comparadores de numeros")
+    print("11. Revisa si el numero ingresado es par o impar")
+    print("12. Salir")
     opcion = int(input("Ingrese una opcion (1-12): "))
     if opcion >=1 and opcion <= 8:
-        texto = input("Ingrese un texto: ")        
+        texto = input("Ingrese un texto: ")       
         if opcion == 1:
             print(f"Su texto en mayusculas: {texto.upper()}")
         elif opcion == 2:
