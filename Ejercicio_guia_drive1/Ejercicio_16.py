@@ -1,4 +1,4 @@
-frase = input("Ingrese una frase: ")
+frase = input("Ingrese una frase: ").lower()
 palabras = "aeiou"
 suma = 0
 for i in frase:
